@@ -40,7 +40,7 @@ const HeaderComponent = function () {
         <div
           class="pt-0 flex flex-col font-light gap-0 h-[1.5rem] w-[7rem] text-xs ml-[0.5rem]"
         >
-          <p class="text-white m-0 p-0 pt-[0.25rem] hover:underline">
+          <p class="text-white btn--register cursor-pointer m-0 p-0 pt-[0.25rem] hover:underline">
             Đăng nhập / <span> Đăng ký</span>
           </p>
           <p class="text-white m-0 p-0 text-base hover:underline">
