@@ -1,6 +1,6 @@
 const FooterComponent = function () {
   return /*html*/ `
-  <footer class="flex top-[100rem] flex-col gap-0 mx-[17.81rem] font-roboto tracking-wide">
+  <footer class="flex top-[100rem] flex-col gap-0 mx-[17.81rem] font-roboto tracking-wide footer--hidden">
   <div class="flex flex-row gap-[4.25rem]">
     <div class="flex flex-col gap-[0.5rem]">
       <span class="font-bold text-xl mb-[0.35rem]">Chính sách </span>

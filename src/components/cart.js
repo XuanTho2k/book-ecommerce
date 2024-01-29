@@ -1,6 +1,6 @@
 const Cart = function (book) {
   return /*html*/ `
-    <div class="flex flex-col gap-[3rem] font-roboto hover:cursor-pointer">
+    <div class="flex flex-col gap-[3rem] font-roboto hover:cursor-pointer book__product book__product--hidden">
         <span>
           <img class="w-[12rem] transition hover:scale-110 h-[12rem]" src="${book.images[0].base_url}" alt="" />
         </span>
