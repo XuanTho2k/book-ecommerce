@@ -1,0 +1,117 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./dist/*.{html,js,css}"],
+  theme: {
+    extend: {
+      colors: {
+        primary: {
+          50: "#eff6ff",
+          100: "#dbeafe",
+          200: "#bfdbfe",
+          300: "#93c5fd",
+          400: "#60a5fa",
+          500: "#3b82f6",
+          600: "#2563eb",
+          700: "#1d4ed8",
+          800: "#1e40af",
+          900: "#1e3a8a",
+          950: "#172554",
+        },
+
+        white: "#fff",
+        gray: {
+          100: "#808089",
+          200: "#787878",
+          300: "#242424",
+        },
+        darkslategray: "#38383d",
+        black: "#000",
+        lavenderblush: "#fff0f1",
+        crimson: "#ff424e",
+        silver: "#c7c7c7",
+        darkorange: "#fd820a",
+        whitesmoke: {
+          100: "#f7f7f7",
+          200: "#f2f2f2",
+          300: "#ebebf0",
+        },
+        royalblue: "#0d5cb6",
+        lightgray: "#ccc",
+        ghostwhite: "#f5f5fa",
+        dodgerblue: "#1a94ff",
+        gold: "#fdd835",
+        cornflowerblue: "#3382db",
+      },
+      spacing: {},
+      fontFamily: {
+        roboto: "Roboto",
+        body: [
+          "Roboto",
+          "ui-sans-serif",
+          "system-ui",
+          "-apple-system",
+          "system-ui",
+          "Segoe UI",
+          "Roboto",
+          "Helvetica Neue",
+          "Arial",
+          "Noto Sans",
+          "sans-serif",
+          "Apple Color Emoji",
+          "Segoe UI Emoji",
+          "Segoe UI Symbol",
+          "Noto Color Emoji",
+        ],
+        sans: [
+          "Roboto",
+          "ui-sans-serif",
+          "system-ui",
+          "-apple-system",
+          "system-ui",
+          "Segoe UI",
+          "Roboto",
+          "Helvetica Neue",
+          "Arial",
+          "Noto Sans",
+          "sans-serif",
+          "Apple Color Emoji",
+          "Segoe UI Emoji",
+          "Segoe UI Symbol",
+          "Noto Color Emoji",
+        ],
+      },
+      borderRadius: {
+        "21xl": "40px",
+      },
+      classes: {
+        myClass: "opacity-0 visible",
+      },
+    },
+    fontSize: {
+      "2xs": "0.69rem",
+      base: "1rem",
+      xs: "0.75rem",
+      smi: "0.81rem",
+      inherit: "inherit",
+      lgg: "1.5rem",
+      lggg: "2rem",
+    },
+    screens: {
+      mq1225: {
+        raw: "screen and (max-width: 1225px)",
+      },
+      mq1050: {
+        raw: "screen and (max-width: 1050px)",
+      },
+      mq750: {
+        raw: "screen and (max-width: 750px)",
+      },
+      mq450: {
+        raw: "screen and (max-width: 450px)",
+      },
+    },
+  },
+  corePlugins: {
+    preflight: false,
+  },
+};
